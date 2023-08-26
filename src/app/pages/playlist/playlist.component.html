@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play List</title>
+</head>
+<body>
+    <div class="container mt-5 playlist_container">
+        <a routerLink = "/home" class="back">Back To Home</a>
+        <h1 class="head">My Music Player</h1>
+        <div class="playlist">
+            <ul>
+                <li *ngFor="let song of songs" (click)="playSong(song.src)">{{ song.name }}</li>
+            </ul>
+        </div>
+        <audio controls [src]="currentSong"></audio>
+    </div>
+</body>
+</html>

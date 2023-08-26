@@ -1,0 +1,33 @@
+
+    <div class="row row">
+        <div class="home_side-bar col-2 ">
+                <div>
+                    <h3 class="mymusic">My Music Player</h3>
+                </div>
+                    <ul class="items">
+                        <a routerLink="/home">
+                            <li>Home</li>
+                        </a>
+                        <a routerLink="">
+                            <li>Search</li>
+                        </a>
+                        <a routerLink="">
+                            <li>Your Library</li>
+                        </a>
+                        <a routerLink="/playlist">
+                            <li>create PlyList</li>
+                        </a>
+                    </ul>
+            </div>
+
+    <div class="home_body col-10 ">
+        <app-top-nav></app-top-nav>
+        <div>
+            <app-song-card></app-song-card>
+        </div>
+        
+      </div>
+            <app-playlist></app-playlist>
+    </div>
+
+

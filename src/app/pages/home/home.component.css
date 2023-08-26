@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.home_side-bar{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    background-color: black;
+    height: 100vh;
+    color: white;
+}
+.home_body{
+    background-color: rgb(67, 66, 66);
+    height: 100vh;
+    color: white;
+}
+.mymusic{
+    color: orange;
+}
+.items>a{
+    color: white;
+    text-decoration: none;
+    /* padding: 40px; */
+    font-size: medium;
+    margin: 40px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.items>a:hover{
+    opacity:.5 ;
+    transform: scaleY(.95) ;
+    color:rgb(233, 153, 5);
+    
+
+}

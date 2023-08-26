@@ -1,0 +1,35 @@
+.top-nav{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(14, 14, 14);
+    position: fixed;
+    
+}
+.auth{
+    display: flex;
+    justify-content:center ;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    padding: 20px;
+    margin-left: 500px;
+    gap: 30px;
+    
+    
+}
+._auth >a{
+    color: rgb(24, 23, 23);
+    text-decoration: none;
+    font-size: large;
+    font-weight:bold;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 30%;
+}
+
+._auth >a:hover{
+    transform : scale (1.5);
+    opacity: 0.5;
+    color: rgb(151, 227, 37);
+    background-color: orangered;
+    
+}
